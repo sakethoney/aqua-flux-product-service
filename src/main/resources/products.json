@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "price": 699.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "price": 1099.00,
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Coffee Mug",
+    "price": 12.99,
+    "category": "Kitchen"
+  },
+  {
+    "id": 4,
+    "name": "Desk Lamp",
+    "price": 35.49,
+    "category": "Furniture"
+  },
+  {
+    "id": 5,
+    "name": "Running Shoes",
+    "price": 59.99,
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Novel",
+    "price": 14.95,
+    "category": "Books"
+  },
+  {
+    "id": 7,
+    "name": "Bluetooth Headphones",
+    "price": 99.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 8,
+    "name": "Gaming Mouse",
+    "price": 49.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 9,
+    "name": "Desk Organizer",
+    "price": 25.00,
+    "category": "Office"
+  },
+  {
+    "id": 10,
+    "name": "Yoga Mat",
+    "price": 20.00,
+    "category": "Sports"
+  }
+]
