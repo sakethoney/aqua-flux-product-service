@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Artifact 1",
+        "category": "Jewelry",
+        "price": 4106.14,
+        "stock": 7
+    },
+    {
+        "id": 2,
+        "name": "Artifact 2",
+        "category": "Ancient Coin",
+        "price": 3553.29,
+        "stock": 21
+    },
+    {
+        "id": 3,
+        "name": "Artifact 3",
+        "category": "Painting",
+        "price": 1274.71,
+        "stock": 23
+    },
+    {
+        "id": 4,
+        "name": "Artifact 4",
+        "category": "Jewelry",
+        "price": 2114.53,
+        "stock": 41
+    },
+    {
+        "id": 5,
+        "name": "Artifact 5",
+        "category": "Painting",
+        "price": 4574.48,
+        "stock": 81
+    },
+    {
+        "id": 6,
+        "name": "Artifact 6",
+        "category": "Weaponry",
+        "price": 93.02,
+        "stock": 31
+    },
+    {
+        "id": 7,
+        "name": "Artifact 7",
+        "category": "Painting",
+        "price": 2542.14,
+        "stock": 39
+    },
+    {
+        "id": 8,
+        "name": "Artifact 8",
+        "category": "Jewelry",
+        "price": 4486.01,
+        "stock": 13
+    },
+    {
+        "id": 9,
+        "name": "Artifact 9",
+        "category": "Ancient Coin",
+        "price": 3642.73,
+        "stock": 8
+    },
+    {
+        "id": 10,
+        "name": "Artifact 10",
+        "category": "Painting",
+        "price": 4251.35,
+        "stock": 59
+    },
+    {
+        "id": 11,
+        "name": "Artifact 11",
+        "category": "Jewelry",
+        "price": 804.42,
+        "stock": 17
+    },
+    {
+        "id": 12,
+        "name": "Artifact 12",
+        "category": "Painting",
+        "price": 2003.43,
+        "stock": 74
+    },
+    {
+        "id": 13,
+        "name": "Artifact 13",
+        "category": "Weaponry",
+        "price": 4012.66,
+        "stock": 28
+    },
+    {
+        "id": 14,
+        "name": "Artifact 14",
+        "category": "Weaponry",
+        "price": 3026.66,
+        "stock": 31
+    },
+    {
+        "id": 15,
+        "name": "Artifact 15",
+        "category": "Ancient Coin",
+        "price": 2632.75,
+        "stock": 56
+    },
+    {
+        "id": 16,
+        "name": "Artifact 16",
+        "category": "Jewelry",
+        "price": 3780.12,
+        "stock": 6
+    },
+    {
+        "id": 17,
+        "name": "Artifact 17",
+        "category": "Weaponry",
+        "price": 2409.75,
+        "stock": 80
+    },
+    {
+        "id": 18,
+        "name": "Artifact 18",
+        "category": "Sculpture",
+        "price": 3389.16,
+        "stock": 29
+    },
+    {
+        "id": 19,
+        "name": "Artifact 19",
+        "category": "Sculpture",
+        "price": 4246.12,
+        "stock": 100
+    },
+    {
+        "id": 20,
+        "name": "Artifact 20",
+        "category": "Sculpture",
+        "price": 2061.48,
+        "stock": 85
+    }
+]

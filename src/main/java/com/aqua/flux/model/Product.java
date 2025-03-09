@@ -1,4 +1,4 @@
-package com.aqua.flux.product.model;
+package com.aqua.flux.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

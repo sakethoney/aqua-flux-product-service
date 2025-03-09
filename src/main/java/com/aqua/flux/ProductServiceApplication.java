@@ -1,4 +1,4 @@
-package com.aqua.flux.product;
+package com.aqua.flux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -10,11 +10,68 @@ input InputProduct {
     price: Float!
     category: String!
 }
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+}
+
+type Order {
+    id: ID!
+    user: User!
+    product: Product!
+    quantity: Int!
+}
+type Artifact {
+    id: ID!
+    name: String!
+    category: String!
+    price: Float!
+    stock: Int!
+}
+
+type Address {
+    id: ID!
+    street: String
+    city: String
+    state: String
+    zipCode: String
+}
+type Person {
+    id: ID!
+    name: String
+    age: String
+    sex: String
+    address: [Address]
+}
 type Query {
     getAllProducts(page: Int, size: Int, sortBy: String, order: String, search: String, minPrice: Float, maxPrice: Float, category: String): [Product!]!
     exportProducts: String!
+    getUser(id: ID!): User
+    getOrder(id: ID!): Order
+    getAllArtifacts: [Artifact!]!
+    findByCategory(category: String!): [Artifact!]!
+    getPerson: Person
+    getAllPerson: [Person!]!
 }
 
 type Mutation {
     importProducts(products: [InputProduct!]!): Boolean!
+    addArtifact(
+        name: String!
+        category: String!
+        price: Float!
+        stock: Int!
+    ): Artifact!
+    updateArtifact(
+        id: ID!
+        name: String
+        category: String
+        price: Float
+        stock: Int
+    ): Artifact
+    deleteArtifact(id: ID!): Boolean!
+    createUser(name: String!): Person
+    updateUser(id: ID!, name: String): Person
 }
